@@ -86,7 +86,7 @@ snakemake \
   --cluster-generic-submit-cmd "sbatch --job-name=smoove.{rule} --cpus-per-task={threads} --mem={resources.mem_gb}G --time={resources.time}"
 ```
 
-Run DELLY germline SV calling
+## Run DELLY germline SV calling
 
 Runs DELLY per-sample using Snakemake on a SLURM cluster with Singularity/Apptainer. Output format depends on your Snakefile rules (commonly per-sample BCF/VCF and/or cohort-level files).
 Docs: https://github.com/dellytools/delly?tab=readme-ov-file#germline-sv-calling
