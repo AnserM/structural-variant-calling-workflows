@@ -25,7 +25,7 @@ Modular **Snakemake** workflows for batch structural variant (SV) calling from *
 - Snakemake installed via `env/snakemake.yml`
 - Singularity or Apptainer available on your HPC
 - SLURM scheduler access
-- Input BAMs: coordinate-sorted and indexed (`.bam` + `.bai`)
+- Input BAMs: coordinate-sorted, duplicate-marked and indexed (`.bam` + `.bai`)
 - Reference FASTA (and common indexes like `.fai` as required by tools)
 
 
