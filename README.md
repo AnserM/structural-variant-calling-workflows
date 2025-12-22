@@ -145,7 +145,8 @@ Tune parameters to your project:
 ./SURVIVOR/Debug/SURVIVOR merge sample_files 100 1 1 1 0 30 output/merged.vcf
 ./SURVIVOR/Debug/SURVIVOR filter output/merged.vcf NA 50 10000000 0.01 10 output/filtered.vcf
 ```
-Troubleshooting
+
+## Troubleshooting
 
 Missing .bai errors: confirm BAM index naming matches what the Snakefile expects (sample.bam.bai vs sample.bai).
 
