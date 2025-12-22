@@ -132,8 +132,7 @@ Use SURVIVOR to merge individual VCFs into a cohort-level merged VCF.
 Docs: https://github.com/fritzsedlazeck/SURVIVOR
 
 1) Create a sample list file
-2) 
-sample_files must contain one VCF path per line (absolute paths recommended):
+
 
 ```bash
 ls /path/to/per_sample_vcfs/*.vcf > sample_files
