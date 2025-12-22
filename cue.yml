@@ -1,0 +1,30 @@
+name: cue
+channels:
+  - anaconda
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - ca-certificates=2024.11.26=h06a4308_0
+  - ld_impl_linux-64=2.40=h12ee557_0
+  - libffi=3.4.4=h6a678d5_1
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - ncurses=6.4=h6a678d5_0
+  - openssl=1.1.1w=h7f8727e_0
+  - pip=22.1.2=pyhd8ed1ab_0
+  - python=3.7.16=h7a1cb2a_0
+  - python_abi=3.7=2_cp37m
+  - pyyaml=6.0=py37h540881e_4
+  - readline=8.2=h5eee18b_0
+  - setuptools=65.6.3=pyhd8ed1ab_0
+  - sqlite=3.45.3=h5eee18b_0
+  - tk=8.6.14=h39e8969_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.4.6=h5eee18b_1
+  - yaml=0.2.5=h7b6447c_0
+  - zlib=1.2.13=h5eee18b_1
+prefix: /home/amxfq/data/tools/miniconda_space/envs/cue
